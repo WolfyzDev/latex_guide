@@ -11,6 +11,11 @@
         border: 2px solid black;
     }
 
+    .note {
+        background-color: #4aa859;
+        padding: 10px;
+        border: 2px solid black;
+    }
     code {
         margin: 20px;
     }
@@ -33,6 +38,14 @@ Quelques exemples d'éditeurs :
 - Texmaker
 - Visual Studio Code, couplé à l'extention [...]
 
+### ℹ️ Information 
+    Ce repositories contient plusieurs documents : 
+    - Un guide sous format Latex (guideLaTex.tex)
+    - Un guide sous format Markdown (Il s'agit de ce document)
+    - Un guide sous format PDF, complié à partir du document LaTex
+    - Un guide sous format PDF, issu du Markdown
+
+
 ## 1. Commandes de base 
 
 
@@ -48,13 +61,13 @@ Quelques exemples d'éditeurs :
 
 - `\maketitle` : Crée le titre du document.
 
-<div class="warn">
-⚠️ Attention ⚠️ <br>
-Vous devez indiquer systématiquement à LaTex l'encodage que vous souhaitez utiliser (par exemple : UTF-8). <br>
-Sinom, des caractères tel que le "é" n'apparaitront pas. <br>
-Voici la façon d'indiquer l'encodage à LaTex, à placer au début du documment : <br> 
-<code>\usepackage[utf8]{inputenc}</code>
-</div>
+
+### ⚠️ Attention ⚠️ <br>
+Vous devez indiquer systématiquement à LaTex l'encodage que vous souhaitez utiliser (par exemple : UTF-8). 
+Sinom, des caractères tel que le "é" n'apparaitront pas. 
+Voici la façon d'indiquer l'encodage à LaTex, à placer au début du documment :  
+`\usepackage[utf8]{inputenc}`
+
 
 
 Voici un exemple de structure de base d'un documment : 
@@ -84,9 +97,9 @@ Voici un exemple de structure de base d'un documment :
 - `textsc{texte}` : Met le texte en petites capitales.
 
 
-<div class="tips">
-    💡 Astuce 💡<br> Vous pouvez placer un commentaire dans un fichier avec le caractère %
-</div>
+### 💡 Astuce 💡
+Vous pouvez placer un commentaire dans un fichier avec le caractère `%`
+
 
 
 Voici maintenant un petit exemple : 
@@ -100,6 +113,9 @@ Voici maintenant un petit exemple :
 ```
 
 ## 3. Commandes de mise en forme 
+
+
+
 
 Paquets
 

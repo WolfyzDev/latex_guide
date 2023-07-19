@@ -1,10 +1,11 @@
 # Latex
 
-guide.aux
-guide.fdb_latexmk
-guide.fls
-guide.log
-guide.synctex.gz
+guideLaTex.aux
+guideLaTex.fdb_latexmk
+guideLaTex.fls
+guideLaTex.log
+guideLaTex.synctex.gz
 
 # Brouillon 
 brouillon.tex
+latex_guide.code-workspace
