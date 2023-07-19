@@ -1,0 +1,10 @@
+# Latex
+
+guide.aux
+guide.fdb_latexmk
+guide.fls
+guide.log
+guide.synctex.gz
+
+# Brouillon 
+brouillon.tex
