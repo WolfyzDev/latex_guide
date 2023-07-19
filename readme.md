@@ -1,27 +1,3 @@
- <style>
-    .tips {
-        background-color: #0374fc;
-        padding: 10px;
-        border: 2px solid black;
-    }
-
-    .warn {
-        background-color: #ed5f00;
-        padding: 10px;
-        border: 2px solid black;
-    }
-
-    .note {
-        background-color: #4aa859;
-        padding: 10px;
-        border: 2px solid black;
-    }
-    code {
-        margin: 20px;
-    }
-</style>
-
-
 # Guide LaTex 
 
 LaTeX est un langage et un système de composition de documents. 
@@ -111,21 +87,3 @@ Voici maintenant un petit exemple :
 \end{document}
 
 ```
-
-## 3. Commandes de mise en forme 
-
-
-
-
-Paquets
-
-Pour complémenter les fonctions de LaTeX, l’utilisateur peut charger des paquets tiers. Ceux-ci, à l'instar des bibliothèques logicielles, fournissent des commandes supplémentaires, qui vont de simples symboles jusqu’à des fonctionnalités complexes, pouvant impliquer une modification du processus de compilation du document.
-
-Voici quelques exemples de paquets parmi les plus communs :
-
-    babel prend en charge la langue du document, en adaptant la typographie et en fournissant des commandes spécifiques à chaque langue ;
-    amsmath, développé par la Société américaine de mathématiques, étend considérablement les possibilités d'édition de formules mathématiques ;
-    tikz permet la création d’illustrations vectorielles, telles que des graphiques ;
-    graphicx est utilisé pour insérer des images ;
-    listings permet l’affichage de code source avec coloration syntaxique ;
-    calc fournit un mécanisme de calcul.
